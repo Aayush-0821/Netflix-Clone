@@ -1,0 +1,219 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: black;
+}
+.main{
+    background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/4d2c5849-b306-4884-9036-6211f7ee0178/web/IN-en-20240930-TRIFECTA-perspective_1e1ca6cd-9e2d-4e9d-9e4b-ba0c2d3a0e31_large.jpg);
+    height: 90vh;
+    position: relative;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1200px,100vw);
+}
+.main .box{
+    height: 90vh;
+    width: 100%;
+    opacity: 0.64;
+    background-color: black;
+    top: 0;
+    position: absolute;
+}
+nav{
+    max-width: 70vw;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    align-items: center;
+    height: 60px;
+}
+nav img{
+    color: red;
+    width: 131px;
+    position: relative;
+    z-index: 10;
+}
+nav button{
+    position: relative;
+    z-index: 10;
+}
+.hero{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    gap: 23px;
+    padding: 30px;
+}
+.hero span:nth-child(1){
+    font-weight: bolder;
+    font-size: 48px;
+    text-align: center;
+}
+.hero span:nth-child(2){
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+}
+.hero span:nth-child(3){
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+}
+.sepration{
+    height: 7px;
+    background-color: rgb(43, 43, 43);
+    margin-top: -120px;
+}
+.btn{
+    padding: 3px 8px;
+    font-weight: 400;
+    color: white;
+    background-color: rgba(23, 23, 23, 0.021);
+    border: 1px solid rgba(246, 238, 238, 0.5);
+    border-radius: 4px;
+}
+.btn-red{
+    background-color: red;
+    color: white;
+    padding-top: 1.25rem;
+    padding-right: 1rem;
+    padding-bottom: 1.25rem;
+    padding-left: 2rem;
+    font-size: 20px;
+    border-radius: 4px;
+    font-weight: 400;
+}
+.btn-red-sm{
+    background-color: red;
+    color: white;
+}
+.hero-buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+.main input{
+    color: white;
+    padding-top: 1.25rem;
+    padding-right: 1rem;
+    padding-bottom: 1.25rem;
+    padding-left: 6rem;
+    font-size: 1rem;
+    border-radius: 4px;
+    background-color: rgba(23, 23, 23, 0.7);
+    font-weight: 500;
+    border: 1px solid rgba(246, 238, 238, 0.5);
+}
+.first{
+    display: flex;
+    justify-content: center;
+    max-width: 60vw;
+    margin: auto;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+.secImg{
+    position: relative;
+    top: 51px;
+    right: 0;
+}
+section > div {
+    display: flex;
+    flex-direction: column;
+}
+.first > div span:first-child{
+    width: 500px;
+    font-size: 48px;
+    font-weight: bolder;
+}
+.first >div span:nth-child(2){
+    font-size: 20px;
+}
+.second >div span:first-child{
+    width: 700px;
+}
+.third{
+    width: 700px;
+}
+.sepration1{
+    height: 7px;
+    background-color: rgb(43, 43, 43);
+    margin-top: 90px;
+}
+.sepration2{
+    height: 7px;
+    background-color: rgb(43, 43, 43);
+    margin-top: 80px;
+}
+.secImg1{
+    justify-content: center;
+    padding-top: 45px;
+    padding-right: 50px;
+    padding-bottom: -100px;
+    width: 250px;
+    height: 350px;
+}
+.faq h1{
+    font-size: 45px;
+    text-align: center;
+    padding-top: 50px;
+}
+.faq{
+    background: black;
+    color: white;
+    padding: 34px;
+}
+.faqbox:hover{
+    background-color: #414141;
+}
+.faqbox{
+    transition: all 0.5s ease-out;
+    font-size: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+    width: 100%;
+    background-color: #2d2d2d;
+    padding: 10px;
+    max-width: 60vw;
+    margin: 34px auto;
+    border: 1px solid black;
+    cursor: pointer;
+    padding-left: 30px;
+}
+.sepration3{
+    height: 7px;
+    background-color: rgb(43, 43, 43);
+}
+footer{
+    color: white;
+    max-width: 60vw;
+    margin: auto;
+    padding: 14px;
+}
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: white;
+}
+footer .questions{
+    padding: 34px 0;
+}
+.footer a{
+    font-size: 14px;
+
+    color: white;
+}
+.footer-item{
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+}
